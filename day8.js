@@ -25,9 +25,9 @@ function run() {
 // (num => { console.log(num) })();
 
 
-function runThePersonIfNotHandicap(visibilityPercent, func) {
+function runThePersonIfNotHandicap(visibilityPercent, callback) {
   if (visibilityPercent > 40) {
-    func();
+    callback();
   }
   else {
     console.log('Cant walk');
@@ -47,5 +47,5 @@ var isHandi = false;
 
 // var name = (param) => {}
 
-runThePersonIfNotHandicap(50, (param) => { });
+runThePersonIfNotHandicap(50, (param) => {console.log(30) });
 
