@@ -1,0 +1,23 @@
+.header{
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logo{
+
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.navItem{
+}
+.body{
+  height: 80vh;
+  background-color: dodgerblue;
+}
+.footer{
+  background-color:chartreuse;
+}
