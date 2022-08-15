@@ -48,10 +48,11 @@ var any = 75;
 // c(); //any = 75;
 ab();
 
-(function travel(){
+(function travel() {
   console.log('travelling');
 })();
 // Immediately Invoked Function Expression (not have access outside)
+
 travel();
 // var travel = 'travelling';
 

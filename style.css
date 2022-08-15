@@ -1,23 +1,56 @@
-.header{
-  background-color: red;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
+div{
+  border: 2px solid black;
 }
-.logo{
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.grand-parent{
+  background-color: burlywood;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
 }
-.nav{
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
+.parent{
+background-color: aqua;
+width: 400px;
+height: 80%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
 }
-.navItem{
+
+.child{
+background-color: cadetblue;
+width: 140px;
+height: 140px;
 }
-.body{
-  height: 80vh;
-  background-color: dodgerblue;
+
+.fonttext{
+  font-size: 30px;
 }
-.footer{
-  background-color:chartreuse;
+
+.textcolor{
+  color: white;
+}
+
+.bgcolor{
+  background-color: black;
+}
+
+.error{
+  color: red;
+   font-size: 45px;
+}
+
+.zoomOut{
+  width: 200px;
+  height: 200px;
 }
