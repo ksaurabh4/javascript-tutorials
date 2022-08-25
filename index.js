@@ -1,0 +1,3 @@
+ "./functions";
+
+console.log(run);

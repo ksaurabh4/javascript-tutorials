@@ -49,3 +49,7 @@ var isHandi = false;
 
 runThePersonIfNotHandicap(50, (param) => {console.log(30) });
 
+// export { run };
+
+export default run;
+
